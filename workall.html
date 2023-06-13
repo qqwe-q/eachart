@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .all{
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            height: 750px;
+            border: 1px solid black;
+            background: url("./img/awwk3-0zd6x.gif") no-repeat; 
+            background-size:100% 760px;            
+        }
+        .title{
+            width: 100%;
+            height: 70px;
+            color: white;
+            line-height: 70px;
+            text-align: center;
+        }
+        .body{
+            width: 1250px;
+            height: 675px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .left{
+            width: 360px;
+            height: 670px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+        .left .left1{
+            width: 100%;
+            height: 150px;
+            border: 2px solid #0b2855;
+        }
+        .left .left2{
+            width: 100%;
+            height: 205px;
+            border: 2px solid #0b2855;
+        }
+        .left .left3{
+            width: 100%;
+            height: 288px;
+            border: 2px solid #0b2855;
+        }
+        .center{
+            width: 495px;
+            height: 670px;
+        }
+        .center .center1{
+            width: 495px;
+            height: 170px;
+            margin-top: 496px;
+            border: 2px solid #0b2855;
+
+        }
+        .right{
+            width: 355px;
+            height: 670px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .right .right1{
+            width: 100%;
+            height: 200px;
+            border: 2px solid #0b2855;
+        }
+        .right .right3{
+            width: 100%;
+            height: 200px;
+            border: 2px solid #0b2855;
+        }
+        .right .right2{
+            width: 100%;
+            height: 230px;
+            border: 2px solid #0b2855;
+        }
+        
+        table{
+            width: 355px;
+            height: 230px;
+            margin-top: 0px;
+    margin-left: 0px;
+            
+        }
+        table tr th{
+            color: #A2B4C6;
+        }
+        table tr td{
+            color: #3378A7;
+            text-align: center;
+        }
+        .num{
+            background-color: #26DEFD;
+            border-radius: 5px;
+            padding:0 10px;
+        }
+        tr:nth-child(2n+1){
+            background-color: #0F3058;
+        }
+        tr:first-child{
+            background-color: #0B193E;
+        }
+        td:first-child{
+            color: #000;
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="title">大数据通用数据模板</div>
+        <div class="body">
+            <div class="left">
+                <div class="left1" id="main1"></div>
+                <div class="left2" id="main2"></div>
+                <div class="left3" id="main3"></div>
+            </div>
+            <div class="center">
+                <div class="center1" id="main4"></div>
+            </div>
+            <div class="right">
+                <div class="right1" id="main5"></div>
+                <div class="right3" id="main7"></div>
+                <div class="right2" id="main6">
+                    <table cellspacing="0">
+                        <tr>
+                            <th>排名</th>
+                            <th>网站域名</th>
+                            <th>点击量</th>
+                        </tr>
+                        <tr>
+                            <td><span class="num">1</span></td>
+                            <td>王者荣耀</td>
+                            <td>15800000</td>
+                        </tr>
+                        <tr>
+                            <td><span  class="num">2</span></td>
+                            <td>绝地求生</td>
+                            <td>15800000</td>
+                        </tr>
+                        <tr>
+                            <td><span  class="num">3</span></td>
+                            <td>梦幻西游</td>
+                            <td>15800000</td>
+                        </tr>
+                        <tr>
+                            <td><span class="num">4</span></td>
+                            <td>穿越火线</td>
+                            <td>15800000</td>
+                        </tr>
+                        <!-- <tr>
+                            <td><span class="num">5</span></td>
+                            <td>坦克世界</td>
+                            <td>15800000</td>
+                        </tr> -->
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.1/dist/echarts.min.js" charset="utf-8"></script>
+    <script src="js/left2.js"></script>
+    <script src="js/left1.js"></script>
+    <script src="js/left3.js"></script>
+    <script src="js/center.js"></script>
+    <script src="js/right1.js"></script>
+    <script src="js/china.js"></script>
+    <script src="js/right2.js"></script>
+</body>
+</html>
